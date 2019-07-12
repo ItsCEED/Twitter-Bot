@@ -6,12 +6,12 @@ Simple twitter bot that retweets tweets from specified list of users.
 This can be done at https://apps.twitter.com/. Click on the “Create New App” button and fill in the required information.
 ![Create New App](apps.twitter.png)
 
-Fill in required information. In the “Keys and Access Tokens” tab, make sure to note these four things:
+In the “Keys and Access Tokens” tab, make sure to note these four things:
 
-Consumer Key
-Consumer Secret
-Access Token Key
-Access Token Secret
+- Consumer Key
+- Consumer Secret
+- Access Token Key
+- Access Token Secret
 
 - Then Install Node.js here: https://nodejs.org/en/
 In terminal, run command: npm init 
