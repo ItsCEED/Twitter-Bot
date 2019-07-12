@@ -13,8 +13,9 @@ In the “Keys and Access Tokens” tab, make sure to note these four things:
 - Access Token Key
 - Access Token Secret
 
-- Then Install Node.js here: https://nodejs.org/en/
-In terminal, run command: npm init 
+Then Install Node.js here: https://nodejs.org/en/
+
+In terminal, run command: ```npm init```.
 Fill in the required information which will include: package name, version, description, entry point, etc. 
 
 After doing that, run:
