@@ -17,12 +17,13 @@ Then Install Node.js here: https://nodejs.org/en/
 
 In terminal, run command: ```npm init```.
 Fill in the required information which will include: package name, version, description, entry point, etc. 
+*Note*: When prompted in the entry point for the filename, I would name it something other than the default index.js. For me, turns out I already had a file name index.js on my computer.
 
 After doing that, run:
 ```
 npm install twit --save
 ```
-Now, create a file in that (same) directory called index.js
+Now, create a file in that (same) directory and call it whatever name you chose for the entry point.
 
 In a blank text editor, I created a Twit instance that can be used to make requests to Twitter's APIs. Learned how here: https://github.com/ttezel/twit
 
@@ -35,7 +36,7 @@ var T = new Twit({
     access_token_secret:  ' ... ',
 })
 ```
-Fill in the blanks with the access keys you received earlier. 
+Fill in the blanks with the access keys you received earlier. You probably wanna keep your access keys to yourself.
 
 Then, I created an array of users to retweet:
 These are the Twitter ID's of: Train, Serena Williams, Michelle Obama, Beyonce, the National Science Foundation and WeRateDogs.
