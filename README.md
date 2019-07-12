@@ -17,7 +17,7 @@ Then Install Node.js here: https://nodejs.org/en/
 
 In terminal, run command: ```npm init```.
 Fill in the required information which will include: package name, version, description, entry point, etc. 
-*Note*: When prompted in the entry point for the filename, I would name it something other than the default index.js. For me, turns out I already had a file name index.js on my computer.
+*Note*: When prompted in the entry point for the filename, I would name it something other than the default index.js. For me, turns out I already had a file named index.js on my computer. 
 
 After doing that, run:
 ```
@@ -65,5 +65,5 @@ More here about streams: https://developer.twitter.com/en/docs/tutorials/consumi
 The second line checks that the user who tweeted is in our array of ```users```. 
 The fourth line uses twit to retweet the tweet with an id of tweet.id_str.
 
-To execute, run: ```node index.js```.
+To execute, run: ```node [filename].js```.
 For now, it has to be run locally on your machine 24/7.
