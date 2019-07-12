@@ -37,7 +37,7 @@ var T = new Twit({
 Fill in the blanks with the access keys you received earlier. 
 
 Then, I created an array of users to retweet:
-// Twitter ID's of: Train, Serena Williams, Michelle Obama, Beyonce, the National Science Foundation and WeRateDogs
+These are the Twitter ID's of: Train, Serena Williams, Michelle Obama, Beyonce, the National Science Foundation and WeRateDogs.
 ```
 var users = ["26589987", "409486555", "31239408", "2463721", "16245822","4196983835",];
 ```
